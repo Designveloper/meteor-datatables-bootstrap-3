@@ -16,7 +16,7 @@ Package.on_use(function (api) {
 
 Package.on_test( function(api) {
     api.use([
-        'j4507:datatables-bootstrap-3',
+        'designveloper:datatables-bootstrap-3',
         'test-helpers',
         'tinytest'
     ], ['client']);
