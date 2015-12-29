@@ -1,23 +1,16 @@
 Package.describe({
     summary: "DataTable - jQuery plugin for sortable, pagable data",
-    name: "j4507:datatables-bootstrap-3",
-    version: "0.2.5",
-    git: "https://github.com/c316/meteor-datatables-bootstrap-3"
+    name: "designveloper:datatables-bootstrap-3",
+    version: "0.0.1",
+    git: "https://github.com/Designveloper/meteor-datatables-bootstrap-3"
 });
 
 Package.on_use(function (api) {
   api.use('jquery@1.0.0', 'client');
   api.use('twbs:bootstrap@3.3.2', 'client');
   api.add_files([
-    'lib/jquery.dataTables.js',
-    'lib/datatables.js',
-    'lib/jquery.dataTables.css',
-    'lib/datatables.css',
-    'lib/images/sort_asc.png',
-    'lib/images/sort_asc_disabled.png',
-    'lib/images/sort_both.png',
-    'lib/images/sort_desc.png',
-    'lib/images/sort_desc_disabled.png',
+    'lib/datatables.min.js',
+    'lib/datatables.min.css',
   ], 'client');
 });
 
